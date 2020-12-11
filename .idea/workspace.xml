@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="708bb4d8-fae1-4da6-a809-7c09d5786621" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myflowBeanPartition/ProvincePartitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myflowBeanPartition/myFlowBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myflowBeanPartition/myFlowCountDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myflowBeanPartition/myFlowCountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myflowBeanPartition/myFlowCountReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myflowBeanSort/GroupSort/OrderBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myflowBeanSort/GroupSort/OrderDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myflowBeanSort/GroupSort/OrderGroupingComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myflowBeanSort/GroupSort/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myflowBeanSort/GroupSort/OrderReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myflowBeanSort/PartitionSort/ProvincePartitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myflowBeanSort/PartitionSort/myFlowBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myflowBeanSort/PartitionSort/myFlowCountDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myflowBeanSort/PartitionSort/myFlowCountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myflowBeanSort/PartitionSort/myFlowCountReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/outputformat/FRecordWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/outputformat/FilterDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/outputformat/FilterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/outputformat/FilterOutputFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/outputformat/FilterReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/result/wordcountResult/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/result/wordcountResult/.part-r-00000.gz.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/result/wordcountResult/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/result/wordcountResult/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/result/wordcountResult/part-r-00000.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flowsum/FlowBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flowsum/FlowBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flowsum/FlowCountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flowsum/FlowCountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flowsum/FlowCountReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flowsum/FlowCountReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flowsum/FlowsumDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flowsum/FlowsumDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flowsum/ProvincePartitioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flowsum/ProvincePartitioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wordcount/WordcountCombiner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wordcount/WordcountCombiner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wordcount/WordcountDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wordcount/WordcountDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wordcount/WordcountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wordcount/WordcountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wordcount/WordcountReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wordcount/WordcountReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wordcount/WordcountDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wordcount/WordcountDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wordcount/WordcountMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wordcount/WordcountMapper.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/flowsum/FlowsumDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanPartition/myFlowCountDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wordcount/WordcountMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/outputformat/FRecordWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/outputformat/FilterOutputFormat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="10" selection-start-line="10" selection-end-line="18" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanSort/PartitionSort/myFlowCountMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanSort/GroupSort/OrderGroupingComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanSort/PartitionSort/myFlowBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1792">
+              <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanSort/PartitionSort/myFlowCountDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanSort/PartitionSort/myFlowCountReducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>number</find>
+      <find>OrderGroupingComparator</find>
+      <find>FileOutputFormat</find>
+      <find>FileInputFormat</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/hello.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wordcount/WordcountReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/flowsum/FlowCountReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/flowsum/FlowCountMapper.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/wordcount/WordcountMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myflowBean/myFlowCountDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myflowBean/myFlowCountMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myflowBean/myFlowCountReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myflowBean/myFlowBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myflowBean/ProvincePartitioner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myflowBeanPartition/myFlowCountDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myflowBeanSort/allinoneSort/myFlowCountReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myflowBeanSort/allinoneSort/myFlowCountMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myflowBeanSort/allinoneSort/myFlowBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myflowBeanSort/allinoneSort/myFlowCountDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myflowBeanSort/allinoneSort/ProvincePartitioner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myflowBeanSort/GroupSort/WordcountMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myflowBeanSort/order/OrderDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wordcount/WordcountDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myflowBeanSort/PartitionSort/ProvincePartitioner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myflowBeanSort/GroupSort/OrderReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myflowBeanSort/GroupSort/OrderDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myflowBeanSort/GroupSort/OrderBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myflowBeanSort/GroupSort/OrderGroupingComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/outputformat/FilterDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/flowsum/FlowsumDriver.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\tempUse\repository" />
+        <option name="mavenHome" value="C:/tempUse/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="C:\tempUse\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mapreduce" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mapreduce" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="5" />
+    <option name="width" value="700" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="learning_Mapreduce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learing_Mapreduce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning_Mapreduce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learing_Mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning_Mapreduce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learing_Mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning_Mapreduce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learing_Mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning_Mapreduce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learing_Mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning_Mapreduce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learing_Mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="myflowBeanSort.allinoneSort" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ideaProject\mapreduce\src\main\java" />
+      <recent name="C:\ideaProject\mapreduce\src\main\java\myflowBeanSort\GroupSort" />
+      <recent name="C:\ideaProject\mapreduce\src\main\java\myflowBeanSort" />
+      <recent name="C:\ideaProject\mapreduce\src\main\java\myflowBeanSort\allinoneSort" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.OrderDriver">
+    <configuration name="OrderDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myflowBeanSort.GroupSort.OrderDriver" />
+      <module name="mapreduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myflowBeanSort.GroupSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordcountDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wordcount.WordcountDriver" />
+      <module name="mapreduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wordcount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello" />
+      <module name="mapreduce" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myFlowCountDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myflowBeanPartition.myFlowCountDriver" />
+      <module name="mapreduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myflowBeanPartition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myFlowCountDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myflowBeanSort.PartitionSort.myFlowCountDriver" />
+      <module name="mapreduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myflowBeanSort.PartitionSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OrderDriver" />
+        <item itemvalue="Application.WordcountDriver" />
+        <item itemvalue="Application.myFlowCountDriver" />
+        <item itemvalue="Application.hello" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="708bb4d8-fae1-4da6-a809-7c09d5786621" name="Default Changelist" comment="" />
+      <created>1585921380023</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585921380023</updated>
+      <workItem from="1585921381190" duration="229000" />
+      <workItem from="1585921616631" duration="444000" />
+      <workItem from="1585922245680" duration="1256000" />
+      <workItem from="1585968014891" duration="2482000" />
+      <workItem from="1586085173169" duration="2625000" />
+      <workItem from="1586090416478" duration="214000" />
+      <workItem from="1586090716264" duration="94000" />
+      <workItem from="1586090920710" duration="7251000" />
+      <workItem from="1586142938655" duration="22891000" />
+      <workItem from="1586245090194" duration="2300000" />
+      <workItem from="1586319591515" duration="1406000" />
+      <workItem from="1586396610723" duration="3698000" />
+      <workItem from="1586417146038" duration="609000" />
+      <workItem from="1586496716797" duration="106000" />
+      <workItem from="1586677578905" duration="601000" />
+      <workItem from="1589115832533" duration="1202000" />
+      <workItem from="1601622047416" duration="695000" />
+      <workItem from="1601694654050" duration="1805000" />
+      <workItem from="1601780964930" duration="595000" />
+      <workItem from="1603018118213" duration="599000" />
+      <workItem from="1603259096205" duration="135000" />
+      <workItem from="1607579540021" duration="12000" />
+    </task>
+    <task id="LOCAL-00001" summary="create">
+      <created>1586012295269</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586012295269</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create">
+      <created>1586012324320</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586012324320</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create">
+      <created>1586012360521</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586012360521</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="51249000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22520107" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.11614731" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4716714" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="SciView" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create" />
+    <option name="LAST_COMMIT_MESSAGE" value="create" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/myflowBeanPartition/myFlowCountMapper.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/myflowBeanPartition/myFlowCountReducer.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/myflowBeanSort/PartitionSort/myFlowCountReducer.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1372">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/flowsum/ProvincePartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.jar!/org/apache/hadoop/mapred/MapTask.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.1/hadoop-mapreduce-client-common-3.1.1.jar!/org/apache/hadoop/mapred/LocalJobRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="802" selection-start-line="802" selection-end-line="802" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/flowsum/FlowCountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/flowsum/FlowCountReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.jar!/org/apache/hadoop/mapreduce/Reducer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/flowsum/FlowBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1197">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanPartition/myFlowCountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.jar!/org/apache/hadoop/mapreduce/Mapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanPartition/myFlowCountReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanPartition/myFlowBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/3.1.1/hadoop-common-3.1.1.jar!/org/apache/hadoop/io/WritableComparable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="135" column="21" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.jar!/org/apache/hadoop/mapreduce/task/MapContextImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanPartition/ProvincePartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanSort/GroupSort/WordcountDriver.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanSort/GroupSort/WordcountReducer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanSort/GroupSort/WordcountMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/wordcount/WordcountCombiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="8" selection-start-line="8" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wordcount/WordcountReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanSort/GroupSort/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanSort/PartitionSort/ProvincePartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanSort/GroupSort/OrderBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanSort/GroupSort/OrderReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wordcount/WordcountDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanSort/GroupSort/OrderDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/outputformat/FilterDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/flowsum/FlowsumDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanPartition/myFlowCountDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/outputformat/FRecordWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/outputformat/FilterOutputFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" selection-start-line="10" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanSort/PartitionSort/myFlowCountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanSort/GroupSort/OrderGroupingComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanSort/PartitionSort/myFlowBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1792">
+          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanSort/PartitionSort/myFlowCountDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myflowBeanSort/PartitionSort/myFlowCountReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wordcount/WordcountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
